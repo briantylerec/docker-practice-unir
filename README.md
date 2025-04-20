@@ -18,12 +18,12 @@ cd fintech-app
 ```
 
 ## Construir y ejecutar los contenedores
-docker-compose build
-docker-compose up
+- docker-compose build
+- docker-compose up
 
 ## Subir imágenes a Docker Hub
-docker login
-docker build -t myusername/backend ./backend
-docker push myusername/backend
-docker build -t myusername/frontend ./frontend
-docker push myusername/frontend
+- docker login
+- docker build -t myusername/backend ./backend
+- docker push myusername/backend
+- docker build -t myusername/frontend ./frontend
+- docker push myusername/frontend
